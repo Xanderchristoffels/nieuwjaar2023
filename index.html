@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieuwjaar Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Nieuwjaar<br><span class="bold">2023</span></h1>
+    
+    <div class="time">
+        <div class="column" id="columnDays">
+            <div class="days timeCard" id="daysDiv"></div>
+            <div id="daysQ" class="timeQ">
+                <p>dagen</p>
+            </div>
+        </div>
+        <div class="column" id="columnHours">
+            <div class="hours timeCard"></div>
+            <div id="hoursQ" class="timeQ">uur</div>
+        </div>
+        <div class="column" id="columnMinutes">
+            <div class="minutes timeCard" id="minCard"></div>
+            <div id="minQ" class="timeQ">minuten</div>
+        </div>
+        <div class="column" id="columnSeconds">
+            <div class="seconds timeCard" id="secCard"></div>
+            <div id="secQ" class="timeQ">seconden</div>
+        </div>
+    </div>
+
+    <div class="countdown">
+        <h1 id="countTime"></h1>
+        <h1 id="lastCount"></h1>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
